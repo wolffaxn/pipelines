@@ -61,5 +61,12 @@ playwright
 beautifulsoup4
 
 # Llama Index for RAG
-llama-index
-llama-index-llms-ollama
+llama-index==0.11.1
+llama-index-core==0.11.1
+llama-index-embeddings-ollama==0.3.0
+llama-index-llms-ollama==0.3.0
+llama-index-vector-stores-qdrant==0.3.0
+ollama==0.3.1
+
+# Qdrant Client
+qdrant_client==1.11.1

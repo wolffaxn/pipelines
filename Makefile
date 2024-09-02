@@ -10,7 +10,7 @@ GIT_COMMIT = $(strip $(shell git rev-parse --short HEAD))
 # get remote origin url
 GIT_URL = $(strip $(shell git config --get remote.origin.url))
 
-VERSION = python3.12
+VERSION = main
 
 .PHONY: build
 build: docker-build

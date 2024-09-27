@@ -1,4 +1,4 @@
-FROM python:3.12.5-slim-bookworm AS base
+FROM --platform=$BUILDPLATFORM python:3.12.5-slim-bookworm AS base
 
 # Install GCC and build tools
 ENV DEBIAN_FRONTEND=noninteractive
